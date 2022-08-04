@@ -1,0 +1,63 @@
+06_Lombok.txt
+
+ # Lombok
+ 
+ -간단한 어노테이션 추가로 자바빈 스타일의 데이터 클래스를 자동 완성해주는 라이브러리 
+ 
+ #Lombok 설치
+ 
+ 1. Google에 lombok를 검색한다
+ 2. 다운로드 한다
+ 3. ekdnsqkedms lombok.jar를 실행한다
+ 4. dnjsgksms IDE를 선택하고 설치한다 (자동으로 검색되지 않으면 수동으로 위치를 지정한다)
+ 5. pom.xml에 설치한 롬복과 일치하는 버전의 dependency를 추가한다
+ 6. IDE를 재시작한다
+ 7.프로젝트를 업데이트 한다
+ 
+ # Lombok의 어노테이션
+ 
+ @Data
+ 	- @Getter
+ 	- @Setter
+ 	- @ToString
+ 	- @EqulsAndHashCode
+ 	- @RequiredArgsConstructor
+ @ Getter
+  - 모든 필드에 대해 Getter를 생성
+  
+  @ Setter
+  - 모든 필에 대핸 Setter를 생성
+  
+  @Tostring 
+  - 해당 데이터 클래스의 toString 을 생성
+  
+  @noArgsConstructor
+  -기본 생성자를 생성
+  
+  @RequiredArgsConstructor
+  - @NonNll이 붙은 필드만 포함된 생성자를 생성
+  
+  @AllArgsConstructor
+  - 모든 필드를 포함한 생성자를 생성  
+  
+  
+  @EqualsAndHashCode
+  -해당 클래스의 equals()와 hashCode 메서드를 자동 생성
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
